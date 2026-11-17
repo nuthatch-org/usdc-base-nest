@@ -1,0 +1,16 @@
+[nest]
+name = "usdc-base"
+chain = "base"
+chain_id = 8453
+rpc_urls = [
+    "https://base.gateway.tenderly.co",
+    "https://base-rpc.publicnode.com",
+]
+schema_version = 1
+block_timestamps = true
+
+[[contracts]]
+alias = "usdc"
+address = "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+start_block = 2797221
+abi = "abis/usdc.json"
